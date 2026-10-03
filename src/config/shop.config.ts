@@ -1,53 +1,53 @@
 export const shopConfig = {
   brand: {
-    name: "NEONSUTRA",
-    shortName: "NE",
-    shortName2: "O",
-    tagline: "Custom LED Neon Signs — Designed Online, Handcrafted in India",
+    name: "Bu rch",
+    shortName: "Buisness ",
+    shortName2: "A",
+    tagline: "LED Sign Boards & Complete Business Solutions",
     description:
-      "Design your custom LED neon sign for your cafe, salon, gym, home or wedding. Live preview, instant pricing, handcrafted in India and shipped pan-India in 7–10 days.",
+      "Custom 3D acrylic LED glow signs, neon flex signs, architectural signage and commercial branding solutions from Business Arch.",
     logo: {
-      alt: "NEONSUTRA home",
+      alt: "Business Arch home",
       href: "/",
     },
   },
 
   contact: {
-    email: "hello@neonsutra.in",
-    phone: "+919876543210",
-    phoneDisplay: "+91 98765 43210",
-    whatsappNumber: "+919876543210",
-    whatsappDisplay: "91 98765 43210",
+    email: "businessarchofficial@gmail.com",
+    phone: "+919515498386",
+    phoneDisplay: "+91 95154 98386",
+    whatsappNumber: "+919515498386",
+    whatsappDisplay: "91 95154 98386",
     address: {
-      city: "Bengaluru",
-      state: "Karnataka",
+      city: "Hyderabad",
+      state: "Telangana",
       country: "India",
-      full: "Bengaluru, Karnataka, India",
+      full: "Masab Tank, Hyderabad, Telangana, India",
     },
-    hours: "Mon–Sat, 10 am – 7 pm IST",
+    hours: "Business hours",
     timezone: "Asia/Kolkata",
   },
 
   social: {
-    instagram: { url: "https://instagram.com/neonsutra", label: "Instagram" },
-    facebook: { url: "https://facebook.com/neonsutra", label: "Facebook" },
-    youtube: { url: "https://youtube.com/@neonsutra", label: "YouTube" },
-    twitter: { url: "https://twitter.com/neonsutra", label: "Twitter" },
-    linkedin: { url: "https://linkedin.com/company/neonsutra", label: "LinkedIn" },
+    instagram: { url: "", label: "Instagram" },
+    facebook: { url: "", label: "Facebook" },
+    youtube: { url: "", label: "YouTube" },
+    twitter: { url: "", label: "Twitter" },
+    linkedin: { url: "", label: "LinkedIn" },
   },
 
   seo: {
-    defaultTitle: "NEONSUTRA",
+    defaultTitle: "LED Sign Boards & 3D Signage | Business Arch",
     defaultDescription:
-      "Design your custom LED neon sign for your cafe, salon, gym, home or wedding. Live preview, instant pricing, handcrafted in India and shipped pan-India in 7–10 days.",
-    siteName: "NEONSUTRA",
+      "Custom 3D acrylic LED glow signs, neon flex signs and commercial signage solutions from Business Arch.",
+    siteName: "Business Arch",
     ogImage: "/hero-poster.jpg",
-    twitterHandle: "@neonsutra",
+    twitterHandle: "",
     themeColor: "#0A0A0B",
   },
 
   legal: {
-    companyName: "NEONSUTRA",
+    companyName: "Business Arch Pvtl",
     copyrightYear: new Date().getFullYear(),
     privacyPolicyUrl: "/privacy",
     termsOfServiceUrl: "/terms",
@@ -65,23 +65,25 @@ export const shopConfig = {
       { label: "FAQ", href: "/faq" },
       { label: "Cart", href: "/cart" },
     ],
-    footerCategories: "from-data", // indicates categories come from CATEGORIES data
+    footerCategories: "from-data",
   },
 
   features: {
     freeShippingThreshold: 5000,
     warrantyMonths: 12,
-    productionDays: "7–10 business days",
+    productionDays: "3–7 days fabrication",
     demoMode: true,
   },
 
   whatsapp: {
-    defaultMessage: "Hi NEONSUTRA! I need help designing a custom neon sign.",
+    defaultMessage:
+      "Hi Business Arch! I need help with a custom LED neon sign.",
     customizerMessage: (summary: string, price: string) =>
-      `Hi NEONSUTRA! I need help designing this neon sign:\n${summary}\nEstimated: ${price}`,
+      `Hi Business Arch! I need help designing this sign:\n${summary}\nEstimated: ${price}`,
     productMessage: (productName: string, colour: string, size: string) =>
-      `Hi NEONSUTRA! I like the "${productName}" design (${colour}, ${size}). Can you help me customise it?`,
-    reviewMessage: "Hi NEONSUTRA! I'd love to share a photo/review of my sign.",
+      `Hi Business Arch! I like the "${productName}" design (${colour}, ${size}). Can you help me customise it?`,
+    reviewMessage:
+      "Hi Business Arch! I'd love to share a photo/review of my sign.",
   },
 
   payments: {
@@ -92,7 +94,7 @@ export const shopConfig = {
       COD: "Cash on Delivery (Demo)",
     },
     codAvailable: true,
-    upiId: "neonsutra@upi",
+    upiId: "",
   },
 
   currency: {
